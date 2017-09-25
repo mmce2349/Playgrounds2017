@@ -42,6 +42,8 @@ print(whatsMyAgeAgain)
 //"How could you" said the masterString, "Strings are forbidden."
 //"""
 
+
+
 //String change
 var soWhatsUp : String = "yo"
 var hi : String
@@ -53,22 +55,26 @@ print(hi)
 
 
 //Attempted to count numbers.
-//let unusualMenagerie = "Koala 🐨, Shark 🦈, Bird 🦅, elephant🐘"
-//print("unusualMenagerie has \(unusualMenagerie.count) characters")
-//print (unusualMenagerie)
-//var word = "cafe"
-//print("the number of characters in \(word) is \(word.count)")
-//// Prints "the number of characters in cafe is 4"
-//
-//word += "\u{301}" //combing acute accent, u+0301
-//
-//print("the number of character in \(word) is \(word.count)")
-//
+let unusualMenagerie = "Koala 🐨, Shark 🦈, Bird 🦅, elephant🐘"
+print("unusualMenagerie has \(unusualMenagerie.characters.count) characters")
+print (unusualMenagerie)
+var word = "cafe"
+print("the number of characters in \(word) is \(word.characters.count)")
+// Prints "the number of characters in cafe is 4"
+
+word += "\u{301}" //combing acute accent, u+0301
+
+print("the number of character in \(word) is \(word.characters.count)")
+
+
+
 
 //String interpolation
 let multiplier = 3
 let message = "\(multiplier) times 2.5 is \(Double(multiplier) * 2.5)"
 print(message)
+
+
 
 //comparing strings
 let quotation = "We're a lot alike, you and I."
