@@ -51,3 +51,38 @@ while (guess > 0)
     print("Hahahahhaha \(guess)")
     guess -= 1
 }
+
+//learning how to use object
+
+var todaysNotes = "Working with classes"
+
+public class SimpleClass
+{
+    private var myName :String
+    
+    public init ()
+    {
+        myName = "words in here" //no "New" not like java.
+    }
+    
+    public func getMyName() -> String
+    {
+        return myName
+    }
+    public func setMyName(name : String) -> Void
+    {
+        myName = name
+    }
+}
+var mySample :SimpleClass = SimpleClass()
+print(mySample.getMyName())
+mySample.setMyName(name: "Hello my friends")
+print(mySample.getMyName())
+
+
+
+
+
+
+
+
