@@ -16,5 +16,6 @@ var temp2 = secondButton.titleLabel
 secondButton.setTitle("This is better", for: .normal)
 
 var datePicker = UIDatePicker(frame: CGRect(x: 50, y: 50, width: 500, height: 200))
-datePicker.backgroundColor = .white
+datePicker.backgroundColor = .clear
+
 datePicker.setDate(Date(), animated: true)
